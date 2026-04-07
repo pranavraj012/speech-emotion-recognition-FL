@@ -1,4 +1,4 @@
-````markdown
+
 # Privacy-Preserving Speech Emotion Recognition (Federated)
 
 This repo contains a federated learning simulation for speech emotion recognition using HuBERT embeddings and Flower.
@@ -36,9 +36,7 @@ The project goal is simple: keep raw audio local, share model updates only, and 
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-````
-
----
+```
 
 ### 2. Install dependencies
 
@@ -116,7 +114,5 @@ Outputs will be generated in `presentation_assets/` and as `SER_FL_Presentation.
 ## First-time setup
 
 If you are cloning this repo for the first time, start with the Quick Start section and run commands in the same order.
-
-```
 
 
