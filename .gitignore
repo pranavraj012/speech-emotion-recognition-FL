@@ -1,0 +1,41 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime artifacts
+*.log
+*.tmp
+
+# Model/checkpoint outputs
+checkpoints_flwr/
+
+# Generated history/plots/presentation outputs
+flwr_history*.json
+presentation_assets/
+SER_FL_Presentation.pptx
+
+# Local data and derived artifacts (large / machine-specific)
+embeddings.npz
+scaler.pkl
+ravdess_6class.csv
+results.txt
+
+# Optional local recordings
+test_input.wav
+*.webm
+
+# Temporary Office lock files
+~$*

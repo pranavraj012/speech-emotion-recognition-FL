@@ -1,0 +1,5 @@
+flwr>=1.10.0
+streamlit>=1.56.0
+streamlit-audiorecorder>=0.0.6
+pydub>=0.25.1
+python-pptx>=1.0.2
